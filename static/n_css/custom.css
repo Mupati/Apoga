@@ -1,0 +1,332 @@
+/*General Styles*/
+/*html, body{
+  font-family: sans-serif;
+}*/
+h1,h2,h3,h4,h5,h6{
+  font-family: Courier;
+}
+
+p{
+  font-family: Arial;
+}
+li{
+  font-family: 'Duru Sans'
+}
+
+
+.top-banner{
+  background-image: url("/static/img/cam.jpg");
+  min-height: 200px;
+}
+.top-banner .logo{
+  padding-top: 2.4em;
+}
+
+.top-banner ul.bread li {
+    font-size: 1.5em;
+}
+.bread {
+  margin: 0;
+  list-style: none;
+  position: relative;
+  bottom: -4.5em;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 1.5em;
+}
+.bread > li {
+  display: inline-block;
+}
+.bread > li + li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "/\00a0";
+}
+.bread > .active {
+  color: #777;
+}
+
+#sub,#packages,#clients,#testimony,#video,#photo{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+footer.page-footer {
+  margin: 0;
+  padding: 0;
+  background: #0d77b6;
+}
+
+footer #footer-top{
+  padding: 2em 0;
+}
+#footer-top .section > h5{
+  padding-bottom: 1em;
+}
+footer #footer-top ul li a, #footer-top ul > li{
+  color: white;
+}
+footer #footer-top-3rd ul li{
+  display: inline-block;
+}
+footer #footer-top-3rd ul li i:hover{
+  color: #000;
+}
+.footer-copyright{
+  padding-top: 2em !important;
+}
+
+.clearfix:before,.clearfix:after{
+    display: table;
+    content: " ";
+}
+.clearfix:after{
+  clear: both;
+}
+/*Homepage Styles*/
+/*#intro{
+  background-image: url("../static/img/price.jpg"); 
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+   background-size:cover;
+  background-attachment: fixed;
+}*/
+#intro, #hallmark{
+  padding: 5em 0;
+}
+#intro ul > li:hover{
+  color: #0e2c93;
+  font-weight: bolder;
+}
+#intro ul > li{
+  cursor: pointer;
+}
+#hallmark{
+  background: #0d77b6;
+  color: #fff;
+}
+/*#clients{
+  background-image: url("../static/img/drone.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+   background-size:cover;
+}*/
+/*#testimony{
+  background-image: url("../static/img/hme-bg.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+   background-size:cover;
+}*/
+#testimony .slider .indicators .indicator-item.active {
+ background-color: #0d77b6;
+}
+
+#testimony .slides{
+  background-color: inherit;
+}
+#testimony .slides p{
+  font-size: 20px
+}
+#testimony .slides p > strong{
+  font-size: 35px
+}
+
+#feeds{
+  background:grey;
+  padding: 4em 0;
+}
+
+/*Pricing Styles*/
+/*#packages{
+	background-image: url("../static/img/price2.jpg"); 
+}*/
+
+#bronze li:nth-child(even){
+	background-color: rgb(205, 127, 50);
+}
+
+#silver li:nth-child(even){
+	background-color: rgb(192,192,192);
+}
+
+#gold li:nth-child(even){
+	background-color: rgb(255,215,0);
+}
+
+#diamond li:nth-child(even){
+	background-color: #b9f2ff;
+}
+
+/*About Us Styles*/
+/*#sub{
+  background-image: url("../static/img/b3.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+   background-size:cover;
+/*  background: #0d77b6;
+
+}*/
+#sub #desc p{
+  font-size: 1em;
+  padding-bottom: 2em;
+}
+#sub img{
+  height: 10em;
+  border-radius: 1.2em;
+}
+
+#sub .sublist{
+  margin-top: 1em;
+  padding: 2em 0;
+  background: rgba(255, 255, 255, 0.3); 
+}
+
+#team .container{
+  padding: 7em 0 0 0;
+  height: 100em; 
+}
+#team .parallax-container{
+  height: 45em;
+}
+@media(max-width:480px){
+  #team .parallax-container{
+    height: 85em;
+  }
+    #contact iframe{
+  min-width: 10em;
+}
+
+}
+@media(max-width:600px){
+  #team .parallax-container{
+  height: 105em;
+  }
+
+}
+/*Styles for Contact Page*/
+#contact{
+  padding: 3em 0;
+}
+#contact iframe{
+  min-height: 20em;
+  min-width: 35em;
+}
+#contact .company{
+  font-size: 1.5em;
+}
+#contact .contact-form{
+  padding: 3em 0;
+}
+#contact textarea{
+  min-height: 10em;
+}
+#contact ul li{
+  display: inline-block;
+  padding-right: 1.2em;
+}
+/*
+ * Styles for the Gallery
+   Lightbox
+ */
+
+.photo-link {
+  display: inline-block;
+  padding: 2px;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #fff;
+  line-height: 0;
+  border-radius: 4px;
+  transition: background-color 0.5s ease-out; 
+}
+
+.photo-link:hover {
+    background-color: #4ae;
+    transition: none; 
+}
+
+.photo-img{
+  width: 20rem;
+  border-radius: 4px; 
+}
+
+.lb-data .lb-close {
+    position: absolute;
+    top: -30px;
+    margin-left: 600px;
+}
+
+/* Styles for videography */
+/*#photo{
+  background-image: url("../static/img/b1.jpg");
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+   background-size:cover;
+}*/
+#video a img{
+  display: block;
+  width: 20rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#video a img:hover{
+    border: 2px solid teal;
+    border-radius: 10px;
+    -webkit-transform: scale(0.9,0.9);
+    transform: scale(0.9,0.9);
+}
+
+#video .col:hover .desc{
+  color: white !important;
+  background-color: teal;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+#video .desc{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+/*a.up{
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  margin-left: 50px;
+  padding: 5px;
+  z-index: 99;
+  display: none;
+}*/
+
+
+/*Copied template navigation css additions*/
+
+.cbp-spmenu-open a{
+background: #0d77b6;
+text-align: center;
+font-weight: bolder;
+color: #000;
+padding: 0.1em !important; 
+
+}
+
+.cbp-spmenu-open a.active{
+  background: rgba(255, 255, 255, 0.2);
+}
+.cbp-spmenu-open a:hover{
+  background: green;
+}
+.cbp-spmenu-open h3{
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
