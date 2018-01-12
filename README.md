@@ -1,2 +1,2 @@
 # Apoga
-Website for <a href="https://apoga.netlify.com">Apoga Entertainment Studios</a>.
+Website for <a href="https://apogastudios.netlify.com">Apoga Entertainment Studios</a>.
