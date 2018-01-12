@@ -18,7 +18,7 @@
       </div>
       <div class="card-stacked">
        <div class="dv-notify"></div>
-       	 <form class="dv-signin" action="auth/admin.html">
+       	 <form class="dv-signin" action="admin.html">
         <div class="card-content">
          
              <div class="input-field ">
@@ -50,6 +50,9 @@
 <!-- <script type="text/javascript" src="../static/js/materialize.min.js"></script>  -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js
 "></script>
+<script>
+  SDK.call('devless', 'profile',[], function(resp){console.log(resp)});
+</script>
 
 </body>
 </html>
