@@ -15,7 +15,7 @@ li{
 
 
 .top-banner{
-  background-image: url("/static/img/cam.jpg");
+  background-image: url("/static/img/top-banner.jpg");
   min-height: 200px;
 }
 .top-banner .logo{
