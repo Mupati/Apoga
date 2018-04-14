@@ -36,24 +36,24 @@ body a:hover{
 }
 /*beginning of responsiveslider additions*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat 0px 0px;
+	background:url("../img/slide1.jpg") no-repeat 0px 0px;
 	background-size:cover;
 	min-height: 716px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat 0px 0px;
+	background:url("../img/slide2.jpg") no-repeat 0px 0px;
 	background-size: cover;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat 0px 0px;
+	background:url("../img/slide3.jpg") no-repeat 0px 0px;
 	background-size: cover;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat 0px 0px;
+	background:url("../img/slide4.jpg") no-repeat 0px 0px;
 	background-size: cover;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat 0px 0px;
+	background:url("../img/slide5.jpg") no-repeat 0px 0px;
 	background-size: cover;
 }
 
@@ -203,27 +203,27 @@ nav#cbp-spmenu-s2 a {
 @media(max-width:1024px){
 /*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat 0px 0px;
+	background:url("../img/slide1.jpg") no-repeat 0px 0px;
 	background-size:cover;
 	min-height: 544px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat 0px 0px;
+	background:url("../img/slide2.jpg") no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat 0px 0px;
+	background:url("../img/slide3.jpg") no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat 0px 0px;
+	background:url("../img/slide4.jpg") no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat 0px 0px;
+	background:url("../img/slide5.jpg") no-repeat 0px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
@@ -242,27 +242,27 @@ nav#cbp-spmenu-s2 a {
 @media(max-width:991px){
 /*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat -129px 0px;
+	background:url("../img/slide1.jpg") no-repeat -129px 0px;
 	background-size:cover;
 	min-height: 544px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat -120px 0px;
+	background:url("../img/slide2.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat -120px 0px;
+	background:url("../img/slide3.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat -120px 0px;
+	background:url("../img/slide4.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat -120px 0px;
+	background:url("../img/slide5.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 544px;
 }
@@ -305,27 +305,27 @@ nav#cbp-spmenu-s2 a {
 }
 /*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat -148px 0px;
+	background:url("../img/slide1.jpg") no-repeat -148px 0px;
 	background-size:cover;
 	min-height: 490px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat -120px 0px;
+	background:url("../img/slide2.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 490px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat -120px 0px;
+	background:url("../img/slide3.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 490px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat -120px 0px;
+	background:url("../img/slide4.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 490px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat -120px 0px;
+	background:url("../img/slide5.jpg") no-repeat -120px 0px;
 	background-size: cover;
 	min-height: 490px;
 }
@@ -384,27 +384,27 @@ nav#cbp-spmenu-s2 h3 {
 
 /*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat -250px 0px;
+	background:url("../img/slide1.jpg") no-repeat -250px 0px;
 	background-size:cover;
 	min-height: 438px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat -100px 0px;
+	background:url("../img/slide2.jpg") no-repeat -100px 0px;
 	background-size: cover;
 	min-height: 438px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat -100px 0px;
+	background:url("../img/slide3.jpg") no-repeat -100px 0px;
 	background-size: cover;
 	min-height: 438px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat -100px 0px;
+	background:url("../img/slide4.jpg") no-repeat -100px 0px;
 	background-size: cover;
 	min-height: 438px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat -100px 0px;
+	background:url("../img/slide5.jpg") no-repeat -100px 0px;
 	background-size: cover;
 	min-height: 438px;
 }
@@ -455,27 +455,27 @@ nav#cbp-spmenu-s2 h3 {
 
 	/*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat -159px -2px;
+	background:url("../img/slide1.jpg") no-repeat -159px -2px;
 	background-size:cover;
 	min-height: 360px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat -80px -2px;
+	background:url("../img/slide2.jpg") no-repeat -80px -2px;
 	background-size: cover;
 	min-height: 360px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat -80px -2px;
+	background:url("../img/slide3.jpg") no-repeat -80px -2px;
 	background-size: cover;
 	min-height: 360px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat -80px -2px;
+	background:url("../img/slide4.jpg") no-repeat -80px -2px;
 	background-size: cover;
 	min-height: 360px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat -80px -2px;
+	background:url("../img/slide5.jpg") no-repeat -80px -2px;
 	background-size: cover;
 	min-height: 360px;
 }
@@ -547,27 +547,27 @@ nav#cbp-spmenu-s2 a {
 }
 	/*added due to responsive slider*/
 .banner-bg{
-	background:url("../img/cam.jpg") no-repeat -127px -2px;
+	background:url("../img/slide1.jpg") no-repeat -127px -2px;
 	background-size:cover;
 	min-height: 250px;
 }
 .banner2{
-	background:url("../img/drone.jpg") no-repeat -40px -2px;
+	background:url("../img/slide2.jpg") no-repeat -40px -2px;
 	background-size: cover;
 	min-height: 250px;
 }
 .banner3{
-	background:url("../img/hakuna.jpg") no-repeat -40px -2px;
+	background:url("../img/slide3.jpg") no-repeat -40px -2px;
 	background-size: cover;
 	min-height: 250px;
 }
 .banner4{
-	background:url("../img/vidcam.jpg") no-repeat -40px -2px;
+	background:url("../img/slide4.jpg") no-repeat -40px -2px;
 	background-size: cover;
 	min-height: 250px;
 }
 .banner5{
-	background:url("../img/mum.jpg") no-repeat -40px -2px;
+	background:url("../img/slide5.jpg") no-repeat -40px -2px;
 	background-size: cover;
 	min-height: 250px;
 }
