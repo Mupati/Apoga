@@ -238,22 +238,24 @@ footer #footer-top-3rd ul li i:hover{
 
 .photo-link {
   display: inline-block;
-  padding: 2px;
-  margin: 0 0.5rem 1rem 0.5rem;
+/*  padding: 2px;
+  margin: 0 0.5rem 1rem 0.5rem;*/
   background-color: #fff;
   line-height: 0;
-  border-radius: 4px;
-  transition: background-color 0.5s ease-out; 
+/*  transition: background-color 0.5s ease-out;*/
+ -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .photo-link:hover {
     background-color: #4ae;
-    transition: none; 
+      -webkit-transform: scale(0.9,0.9);
+    transform: scale(0.9,0.9);
 }
 
-.photo-img{
-  width: 20rem;
-  border-radius: 4px; 
+ img.photo-img{
+  width: 15rem;
+  height: 15rem;
 }
 
 .lb-data .lb-close {
@@ -329,4 +331,12 @@ padding: 0.1em !important;
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
+}
+
+
+.nav-wrapper{
+  background-color: white !important;
+  font-weight: bolder;
+  font-size: 50px;
+  
 }
